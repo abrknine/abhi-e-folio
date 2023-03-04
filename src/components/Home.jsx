@@ -13,7 +13,7 @@ const home=()=>{
                     I'm a Front-end web developer
                  </h2>
                  <p className='text-gray-500 py-4 max-w-md'>
-                    I am working in my front-end skills from past 7 months, I had done internship in suvidha foundation
+                    I am working in my front-end skills from past 7 months, I had done internship at suvidha foundation
                     where i design and code a coding bootcamp for them
                     currrently i am working with technologies like reactjs,talwind css and nextjs.
                  </p>
