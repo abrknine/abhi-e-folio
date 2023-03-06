@@ -1,42 +1,60 @@
 import React from "react";
-import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
-import installNode from "../assets/portfolio/installNode.jpg";
-import navbar from "../assets/portfolio/navbar.jpg";
-import usestate from "../assets/portfolio/usestate.jpg"
-import reactWeather from "../assets/portfolio/reactWeather.jpg";
-import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
+// import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
+// import installNode from "../assets/portfolio/installNode.jpg";
+// import navbar from "../assets/portfolio/navbar.jpg";
+// import usestate from "../assets/portfolio/usestate.jpg"
+// import reactWeather from "../assets/portfolio/reactWeather.jpg";
+// import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
+// // import cart_app from "../assets/portfolio/cart-app.jpg";
+import cartapp from "../assets/portfolio/cartapp.jpg";
+import codingbootcamp from "../assets/portfolio/codingbootcamp.jpg";
+import foodhub from "../assets/portfolio/foodhub.jpg";
+import guessgame from "../assets/portfolio/guessgame.jpg";
+import textutiles from "../assets/portfolio/textutiles.jpg";
+import piggame from "../assets/portfolio/piggame.jpg";
+
+
+
 
 const portfolios = () => {
 
   const port = [
+    
     {
       id: 1,
-      src: arrayDestruct,
+      src: cartapp,
+     
       
     },
     {
       id: 2,
-      src: installNode,
+      src:  codingbootcamp,
+      
       
     },
     {
       id: 3,
-      src: navbar,
+      src: foodhub,
+      
+      
       
     },
     {
       id: 4,
-      src: reactWeather,
+      src: guessgame,
+      
       
     },
     {
-      id: 5,
-      src: reactSmooth,
+      id:5,
+      src: textutiles,
+     
       
     },
     {
       id: 6,
-      src: usestate,
+      src: piggame,
+      
       
     },
     
@@ -61,12 +79,15 @@ const portfolios = () => {
             <div key={id}  className=" shadow-md sadow-gray-600 rounded-lg">
               <img src={src} alt="" className="rounded-md " />
               <div className="flex item-center justify-center">
+              
                 <button  className="w-1/2 px-6 py-6 m-4 duration-200 hover:scale-105">
                   Demo
                 </button>
+             
                 <button className="w-1/2 px-6 py-6 m-4 duration-200 hover:scale-105">
                   Code
                 </button>
+            
               </div>
             </div>
           ))}
